@@ -4,7 +4,7 @@
 #include <vector>
 #include <initializer_list>
 #include <utility>
-#include "core/esacpe_codes.hpp"
+#include "core/escape_codes.hpp"
 #include "core/attribute.hpp"
 #include "core/string_buffer.hpp"
 

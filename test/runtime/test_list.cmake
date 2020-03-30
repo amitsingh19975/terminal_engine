@@ -1,3 +1,6 @@
 set(RUNTIME_TEST
-    "tests.cpp"
+    "attribute_test.cpp"
+    "color_test.cpp"
+    "draw_buffer_test.cpp"
+    "string_buffer_test.cpp"
 )

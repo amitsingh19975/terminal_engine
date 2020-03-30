@@ -2,7 +2,7 @@
 #define AMT_TERMINAL_ENGINE_ATTRIBUTE_HPP
 
 #include <ostream>
-#include "core/esacpe_codes.hpp"
+#include "core/escape_codes.hpp"
 #include "core/color.hpp"
 
 namespace amt::core{
@@ -57,6 +57,7 @@ namespace amt::core{
             }else{
                 static_assert(detail::always_false<T>::value,"amt::core::attr::operator<<() : invalid type");
             }
+            m_cached_str.clear();
             return *this;
         }
 
@@ -78,6 +79,10 @@ namespace amt::core{
             }
             
             return m_cached_str;
+        }
+
+        constexpr bool empty() const noexcept{
+            return m_col.empty() && m_codes.empty();
         }
 
     private:

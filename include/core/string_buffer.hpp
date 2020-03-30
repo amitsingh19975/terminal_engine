@@ -20,9 +20,7 @@ namespace amt::core{
         using size_type = size_t;
 
         string_buffer_t()
-        {
-            
-        }
+        {}
 
         bool lazy_write(std::string_view s){
             return write_to_buf(s);
@@ -51,6 +49,10 @@ namespace amt::core{
         
         void clear_screen() noexcept{
             eager_write("\x1b[2J");
+        }
+
+        std::string_view buf() const noexcept{
+            return std::string_view{m_buff.get(),m_size};
         }
 
         ~string_buffer_t(){

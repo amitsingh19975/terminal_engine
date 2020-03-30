@@ -4,7 +4,7 @@
 #include <string>
 #include <sstream>
 #include <variant>
-#include "core/esacpe_codes.hpp"
+#include "core/escape_codes.hpp"
 
 namespace amt::core{
 
@@ -196,7 +196,7 @@ namespace amt::core{
         }
 
         template<typename T>
-        T& get_color(){
+        T& get(){
             return std::get<T>(m_col);
         }
 
