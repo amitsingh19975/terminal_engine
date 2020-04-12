@@ -7,7 +7,7 @@
 #include <memory>
 #include <algorithm>
 #include <unistd.h>
-#include "core/attribute.hpp"
+#include <dark/core/attribute.hpp>
 
 namespace amt::core{
 
@@ -53,6 +53,10 @@ namespace amt::core{
 
         std::string_view buf() const noexcept{
             return std::string_view{m_buff.get(),m_size};
+        }
+
+        constexpr bool empty() const noexcept{
+            return m_size == 0;
         }
 
         ~string_buffer_t(){

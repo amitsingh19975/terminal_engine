@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/Users/amit/Desktop/code/terminal_engine/dark/build",
+  "command": "/usr/bin/clang++   -I../../include -isystem /Users/amit/.conan/data/catch2/2.11.0/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -std=gnu++1z -o test/CMakeFiles/draw_buffer_test.dir/runtime/draw_buffer_test.cpp.o -c /Users/amit/Desktop/code/terminal_engine/test/runtime/draw_buffer_test.cpp",
+  "file": "/Users/amit/Desktop/code/terminal_engine/test/runtime/draw_buffer_test.cpp"
+},
+
+{
+  "directory": "/Users/amit/Desktop/code/terminal_engine/dark/build",
+  "command": "/usr/bin/clang++   -I../../include -isystem /Users/amit/.conan/data/catch2/2.11.0/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -std=gnu++1z -o test/CMakeFiles/string_buffer_test.dir/runtime/string_buffer_test.cpp.o -c /Users/amit/Desktop/code/terminal_engine/test/runtime/string_buffer_test.cpp",
+  "file": "/Users/amit/Desktop/code/terminal_engine/test/runtime/string_buffer_test.cpp"
+},
+
+{
+  "directory": "/Users/amit/Desktop/code/terminal_engine/dark/build",
+  "command": "/usr/bin/clang++   -I../../include -isystem /Users/amit/.conan/data/catch2/2.11.0/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -std=gnu++1z -o test/CMakeFiles/color_test.dir/runtime/color_test.cpp.o -c /Users/amit/Desktop/code/terminal_engine/test/runtime/color_test.cpp",
+  "file": "/Users/amit/Desktop/code/terminal_engine/test/runtime/color_test.cpp"
+},
+
+{
+  "directory": "/Users/amit/Desktop/code/terminal_engine/dark/build",
+  "command": "/usr/bin/clang++   -I../../include -isystem /Users/amit/.conan/data/catch2/2.11.0/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -std=gnu++1z -o test/CMakeFiles/attribute_test.dir/runtime/attribute_test.cpp.o -c /Users/amit/Desktop/code/terminal_engine/test/runtime/attribute_test.cpp",
+  "file": "/Users/amit/Desktop/code/terminal_engine/test/runtime/attribute_test.cpp"
+},
+
+{
+  "directory": "/Users/amit/Desktop/code/terminal_engine/dark/build",
+  "command": "/usr/bin/clang++   -I../../include -isystem /Users/amit/.conan/data/catch2/2.11.0/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++1z -o test/CMakeFiles/catch_main.dir/catch_main.cpp.o -c /Users/amit/Desktop/code/terminal_engine/test/catch_main.cpp",
+  "file": "/Users/amit/Desktop/code/terminal_engine/test/catch_main.cpp"
+},
+
+{
+  "directory": "/Users/amit/Desktop/code/terminal_engine/dark/build",
+  "command": "/usr/bin/clang++  -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -I../../include -isystem /Users/amit/.conan/data/docopt.cpp/0.6.2/_/_/package/5fed66895e5b85fca4af6ac05bb157e1ffecb806/include -isystem /Users/amit/.conan/data/fmt/6.0.0/_/_/package/5fed66895e5b85fca4af6ac05bb157e1ffecb806/include -isystem /Users/amit/.conan/data/spdlog/1.5.0/_/_/package/a382e60df586335ead063548817fbe5555ff08b7/include    -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -std=gnu++1z -o src/CMakeFiles/terminal_app.dir/main.cpp.o -c /Users/amit/Desktop/code/terminal_engine/src/main.cpp",
+  "file": "/Users/amit/Desktop/code/terminal_engine/src/main.cpp"
+}
+]

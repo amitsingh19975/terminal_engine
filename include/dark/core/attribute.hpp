@@ -2,8 +2,8 @@
 #define AMT_TERMINAL_ENGINE_ATTRIBUTE_HPP
 
 #include <ostream>
-#include "core/escape_codes.hpp"
-#include "core/color.hpp"
+#include <dark/core/escape_codes.hpp>
+#include <dark/core/color.hpp>
 
 namespace amt::core{
     

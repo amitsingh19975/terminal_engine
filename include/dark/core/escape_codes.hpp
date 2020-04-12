@@ -88,8 +88,13 @@ namespace amt::core{
         BRIGHT_BG_WHITE         = 107,
     };
 
-    inline static constexpr char escape_seq[3] = "\x1b[";
-    inline static constexpr char reset[4] = "\x1b[m";
+    inline static constexpr char escape_seq[3]  = "\x1b[";
+    inline static constexpr char reset[4]       = "\x1b[m";
+    inline static constexpr char clear_screen[6]= "\x1b[2J";
+    inline static constexpr char clear_line[4]  = "\x1b[K";
+    inline static constexpr char save_pos[4]    = "\x1b[s";
+    inline static constexpr char restore_pos[4] = "\x1b[u";
+
 
 } // namespace amt::core
 
@@ -98,6 +103,10 @@ namespace amt{
     using amt::core::escape_codes;
     using amt::core::escape_seq;
     using amt::core::reset;
+    using amt::core::clear_screen;
+    using amt::core::clear_line;
+    using amt::core::save_pos;
+    using amt::core::restore_pos;
 
 } // namespace amt
 

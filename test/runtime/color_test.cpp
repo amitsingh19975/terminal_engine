@@ -1,5 +1,5 @@
 #include <catch2/catch.hpp>
-#include "core/color.hpp"
+#include <dark/core/color.hpp>
 
 TEST_CASE("testing amt::core::detail::rgb", "[rgb]"){
     amt::core::detail::rgb r0;

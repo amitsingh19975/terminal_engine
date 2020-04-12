@@ -1,0 +1,53 @@
+[settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=11.0
+    os=Macos
+
+[requires]
+    catch2/2.Y.Z
+    docopt.cpp/0.6.2
+    fmt/6.Y.Z
+    spdlog/1.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    arch_build=x86_64
+    build_type=Debug
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=11.0
+    os=Macos
+    os_build=Macos
+
+[full_requires]
+    catch2/2.11.0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    docopt.cpp/0.6.2:5fed66895e5b85fca4af6ac05bb157e1ffecb806
+    fmt/6.0.0:5fed66895e5b85fca4af6ac05bb157e1ffecb806
+    spdlog/1.5.0:a382e60df586335ead063548817fbe5555ff08b7
+
+[full_options]
+    docopt.cpp:boost_regex=False
+    docopt.cpp:fPIC=True
+    docopt.cpp:shared=False
+    fmt:fPIC=True
+    fmt:header_only=False
+    fmt:shared=False
+    fmt:with_fmt_alias=False
+    spdlog:fPIC=True
+    spdlog:header_only=False
+    spdlog:no_exceptions=False
+    spdlog:shared=False
+    spdlog:wchar_filenames=False
+    spdlog:wchar_support=False
+
+[recipe_hash]
+
+
+[env]
+

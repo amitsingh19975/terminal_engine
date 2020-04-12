@@ -1,7 +1,7 @@
 #include <catch2/catch.hpp>
-#include "core/attribute.hpp"
-#include "core/escape_codes.hpp"
-#include "core/color.hpp"
+#include <dark/core/attribute.hpp>
+#include <dark/core/escape_codes.hpp>
+#include <dark/core/color.hpp>
 
 TEST_CASE("checking attr construction", "[Constructor]"){
 

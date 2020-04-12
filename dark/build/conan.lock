@@ -1,0 +1,38 @@
+{
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Debug\ncompiler=apple-clang\ncompiler.libcxx=libc++\ncompiler.version=11.0\nos=Macos\nos_build=Macos\n[options]\n[build_requires]\n[env]\n",
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "pref": null,
+    "options": "docopt.cpp:boost_regex=False\ndocopt.cpp:fPIC=True\ndocopt.cpp:shared=False\nfmt:fPIC=True\nfmt:header_only=False\nfmt:shared=False\nfmt:with_fmt_alias=False\nspdlog:fPIC=True\nspdlog:header_only=False\nspdlog:no_exceptions=False\nspdlog:shared=False\nspdlog:wchar_filenames=False\nspdlog:wchar_support=False",
+    "requires": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "path": "/Users/amit/Desktop/code/terminal_engine/dark/build/conanfile.txt"
+   },
+   "1": {
+    "pref": "catch2/2.11.0#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": ""
+   },
+   "2": {
+    "pref": "docopt.cpp/0.6.2#0:5fed66895e5b85fca4af6ac05bb157e1ffecb806#0",
+    "options": "boost_regex=False\nfPIC=True\nshared=False"
+   },
+   "3": {
+    "pref": "fmt/6.0.0#0:5fed66895e5b85fca4af6ac05bb157e1ffecb806#0",
+    "options": "fPIC=True\nheader_only=False\nshared=False\nwith_fmt_alias=False"
+   },
+   "4": {
+    "pref": "spdlog/1.5.0#0:a382e60df586335ead063548817fbe5555ff08b7#0",
+    "options": "fPIC=True\nheader_only=False\nno_exceptions=False\nshared=False\nwchar_filenames=False\nwchar_support=False\nfmt:fPIC=True\nfmt:header_only=False\nfmt:shared=False\nfmt:with_fmt_alias=False",
+    "requires": [
+     "3"
+    ]
+   }
+  }
+ },
+ "version": "0.3"
+}

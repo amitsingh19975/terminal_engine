@@ -1,5 +1,5 @@
 #include <catch2/catch.hpp>
-#include "core/string_buffer.hpp"
+#include <dark/core/string_buffer.hpp>
 #include <unistd.h>
 #include <string>
 

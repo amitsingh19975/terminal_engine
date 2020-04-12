@@ -1,0 +1,134 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "terminal_engine",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "attribute_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-attribute_test-Debug-e47e867cdd6a5fc47912.json",
+					"name" : "attribute_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "catch_main::@36f028580bb02cc8272a",
+					"jsonFile" : "target-catch_main-Debug-ee41a27f11ddc85a8dcd.json",
+					"name" : "catch_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "color_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-color_test-Debug-956b1e126da13af9a8fe.json",
+					"name" : "color_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "draw_buffer_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-draw_buffer_test-Debug-31e696a96199e1360c15.json",
+					"name" : "draw_buffer_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "string_buffer_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-string_buffer_test-Debug-4329fb0e0b4f103f0e8a.json",
+					"name" : "string_buffer_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "terminal_app::@145eef247bfb46b6828c",
+					"jsonFile" : "target-terminal_app-Debug-6895ecb852de5b7e36d3.json",
+					"name" : "terminal_app",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/amit/Desktop/code/terminal_engine/dark/build",
+		"source" : "/Users/amit/Desktop/code/terminal_engine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

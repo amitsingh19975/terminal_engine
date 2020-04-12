@@ -1,0 +1,15 @@
+/Users/amit/Desktop/code/terminal_engine/dark/build/CMakeFiles/rebuild_cache.dir
+/Users/amit/Desktop/code/terminal_engine/dark/build/CMakeFiles/edit_cache.dir
+/Users/amit/Desktop/code/terminal_engine/dark/build/CMakeFiles/test.dir
+/Users/amit/Desktop/code/terminal_engine/dark/build/test/CMakeFiles/rebuild_cache.dir
+/Users/amit/Desktop/code/terminal_engine/dark/build/test/CMakeFiles/test.dir
+/Users/amit/Desktop/code/terminal_engine/dark/build/test/CMakeFiles/draw_buffer_test.dir
+/Users/amit/Desktop/code/terminal_engine/dark/build/test/CMakeFiles/string_buffer_test.dir
+/Users/amit/Desktop/code/terminal_engine/dark/build/test/CMakeFiles/color_test.dir
+/Users/amit/Desktop/code/terminal_engine/dark/build/test/CMakeFiles/edit_cache.dir
+/Users/amit/Desktop/code/terminal_engine/dark/build/test/CMakeFiles/attribute_test.dir
+/Users/amit/Desktop/code/terminal_engine/dark/build/test/CMakeFiles/catch_main.dir
+/Users/amit/Desktop/code/terminal_engine/dark/build/src/CMakeFiles/rebuild_cache.dir
+/Users/amit/Desktop/code/terminal_engine/dark/build/src/CMakeFiles/edit_cache.dir
+/Users/amit/Desktop/code/terminal_engine/dark/build/src/CMakeFiles/test.dir
+/Users/amit/Desktop/code/terminal_engine/dark/build/src/CMakeFiles/terminal_app.dir
